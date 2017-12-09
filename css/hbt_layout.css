@@ -1,0 +1,900 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+/* #Page Styles
+================================================== */
+.body {width:100%;
+height:100%;
+background-image:url(../img/rockband/backgound.jpg);}
+
+/*certain word bold syle*/
+.bold {color:#FF0000; 
+		font-family:Arial, Helvetica, sans-serif; 
+		font-weight:bold;
+		font-size:16px; }
+
+
+#icons {text-align:left;
+		margin-left:500px;
+		margin-bottom:25px;
+		letter-spacing:10px;
+		margin-top:-15px;}
+
+#logotype {margin-top:20px;}
+
+
+		
+#navitext {text-align:center;
+	text-transform:uppercase;
+	background-color:#000000;
+	color:#808080;
+	font-weight:bolder;
+	font-size:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	padding-top:10px;
+	padding-bottom:10px;
+	opacity:0.8;
+	text-decoration:none;
+	margin-top:15px;
+	
+	
+}
+
+
+/*---------------------links style-----------------*/
+
+a.navitext:link, a.navitext:visited, a.navitext {
+	
+		color:#808080; 
+		text-decoration:none;
+		text-align:center;
+		font-weight:bold;
+		font-size:20px;
+		font-family:Arial, Helvetica, sans-serif;
+		background-color:transparent;}
+	
+	
+a.navitext:hover, a.navitext:active, a.navitext {
+	
+		color:#FF0000; 
+		text-decoration:none;
+		text-align:center;
+		font-weight:bold;
+		font-size:20px;
+		font-family:Arial, Helvetica, sans-serif;
+		background-color:transparent;}	
+
+
+
+
+/*--------------------band picture------------------*/
+#bandpic {
+margin-top:25px;}
+
+/* Responsive Images */
+img, img.scale-with-grid { outline: 0; max-width: 100%; height: auto;}
+ 
+ 
+/*------------description paragraph--------------*/ 
+#des {background-color:#000000;
+	  margin-top:20px;
+	  opacity:0.8;
+	  }
+	  
+	  
+	  
+#des p{padding: 30px 30px 10px 30px;
+	  text-align:justify;
+	  color:#FFFFFF;
+	  font-family:Arial, Helvetica, sans-serif;
+	  font-weight:normal;
+	  
+	 
+}
+
+
+/*----------video style---------------------------------*/
+#video {background-color:#000000;
+		opacity:0.8; 
+		margin-top:25px;
+		padding-bottom:10px;
+		margin-bottom:15px;
+		text-align:center;}
+		
+#video h4 {color:#FF0000;
+		font-family:Arial, Helvetica, sans-serif;
+		text-align:center;
+		letter-spacing: 5px;
+		text-transform:uppercase;
+		font-weight:bold;
+		padding-top:20px;}
+
+.youtube-player {margin: 10px 0px 10px 0px;
+				 height:200px;
+				 width:300px;}
+		
+	
+		
+
+
+
+/*----------top stories--------*/
+#top {background-color:#000000;
+		opacity:0.8; 
+		margin-top:25px;
+		height:290px;
+		margin-bottom:15px;}
+
+#top h4 {color:#FF0000;
+		font-family:Arial, Helvetica, sans-serif;
+		text-align:center;
+		letter-spacing: 5px;
+	
+		text-transform:uppercase;
+		font-weight:bold;
+		padding-top:20px;}
+	
+#top p {color:#808080;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:15px;
+		font-weight:bold;
+		text-align:center;
+		font-weight:bold;
+		margin-top:30px;
+		letter-spacing:5px;
+		text-decoration:underline;}
+	
+
+
+
+/*==============footer=====================*/
+
+		 
+
+
+#footer {background-color:#000000;
+		 opacity:0.8;
+		 margin-top:10px;
+		 text-align:center;
+		 padding: 15px 0px 10px 0px;
+		}
+		 
+		 		 
+
+		 
+#footer a:link, #footer a:visited, #footer a {
+	text-decoration:none;
+	color:#FF0000;
+	font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    text-align:center;
+	font-size:14px;
+	padding: 15px 0px 10px 0px;
+	background-color:transparent;
+	margin-top:10px;
+	
+	 }
+	
+#footer a:hover, #footer a:active, #footer a	{
+	color:#808080;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:14px;
+	text-decoration:none;
+	text-align:center;
+	padding: 15px 0px 10px 0px;
+	background-color:transparent;}
+	
+	
+/*==============band members box================*/
+
+#firstpicbox {background-color:#000000;
+		 opacity: 0.8;
+		 height:100%;
+		 margin-top:25px;}
+		
+		
+#second-picbox {background-color:#000000;
+		 		opacity: 0.8;
+		 		height:100%;
+		 		margin-top:0px;}
+
+
+#third-picbox {background-color:#000000;
+		 	   opacity: 0.8;
+		 	   height:100%;
+		       margin-top:0px;
+			   margin-bottom:20px;}
+		
+		
+		
+
+
+		 
+
+#memberimage {background-color:transparent;
+			  margin-top:25px;
+			  margin-left:40px;
+			  margin-bottom:20px;
+			  }
+			  
+#memberimagesec {background-color:transparent;
+			     margin-top:25px;
+			     margin-left:50px;
+				 margin-bottom:20px;}
+
+			  		
+			  
+#membertext  {background-color:transparent;
+			  margin-top:20px;
+			  margin-left:10px;
+			  margin-right:10px;}
+			  
+#membertext h9 {color:#FF0000;
+				
+				text-align:left;
+				text-transform:uppercase;
+				font-family:Arial, Helvetica, sans-serif;}
+				
+#membertext p {font-family:Arial, Helvetica, sans-serif;
+			   color:#FFFFFF;
+			   text-align:left;
+			   font-size:10px;
+			   
+			   padding:0px 0px 0px 5px;
+			   line-height:18px;
+			   margin-left:-5px;
+			   }
+			  
+			  
+/*-------------tours---------------*/
+
+#tourbox {margin: 10px 0px 20px 0px;}
+
+#tour-one {background-color:#000000;
+		   opacity: 0.8;
+		   height:100%;
+		   margin-top:20px;}
+		   
+#tour-one h3 {color:#FF0000;
+			   letter-spacing:1px;
+			    
+			   text-transform:uppercase;
+			   font-family:Arial, Helvetica, sans-serif;
+			   text-align:center;
+			   font-weight:bolder;
+			   padding:20px 0px 10px 0px;
+			   margin-bottom:10px;}
+			   
+#tour-one p {color:#FFFFFF;
+			  font-family:Arial, Helvetica, sans-serif;
+			  text-align:center;
+			  font-size:14px;
+			  font-weight:bold;
+			  background-color:transparent;
+			  opacity:0.6;
+			  margin-top:-20px;
+			  padding:10px 0px 10px 0px;}
+			 
+#tour-one p.red {color:#000000;
+			   background-color:#FF0000;
+			  opacity:0.4;
+			  font-family:Arial, Helvetica, sans-serif;
+			  text-align:center;
+			  font-size:14px;
+			  font-weight:bold;
+			  margin-top:-20px;
+			  padding:10px 0px 10px 0px;}
+			  
+#tour-one p.last {color:#FFFFFF;
+			  font-family:Arial, Helvetica, sans-serif;
+			  text-align:center;
+			  font-size:14px;
+			  font-weight:bold;
+			  background-color:transparent;
+			  opacity:0.6;
+			  margin-top:-20px;
+			  margin-bottom: 10px;
+			  padding:10px 0px 10px 0px;}
+			  
+
+/*--------------------------*/
+#tour-one p.red a:link, a:active, a:visited {text-decoration:none;
+						color:#000000;
+						font-size:14px}
+
+#tour-one p.red a:hover {text-decoration:none;
+						color:#FFF;
+						font-size:14px;}
+						
+						
+						
+#tour-one p.last a:link, a:active, a:visited {text-decoration:none;
+						color:#FFFFFF;}
+
+#tour-one p.last a:hover{text-decoration:none;
+					color:#FF0000;}
+					
+						
+#tour-one p a:link, a:active, a:visited {text-decoration:none;
+						color:#FFFFFF;
+						opacity:1;
+						font-size:14px;}
+						
+						
+#tour-one p a:hover {text-decoration:none;
+					font-size:14px;
+					color:#FF0000;}
+
+					
+
+
+				 
+			  
+/*---------------gallery---------------------*/
+
+#gallery {background-color:#000000;
+			opacity:0.8;
+			height: 100%;
+			margin-top:25px;
+			margin-bottom:20px;
+			}
+			
+#gallery h4 {color:#FF0000;
+			 margin:25px 0px 25px 30px;
+			 font-family:Arial, Helvetica, sans-serif;
+			 font-weight:bold;
+			 text-transform:uppercase;}
+			 
+			
+			 
+			 
+#gallery img {border: 5px solid #F00;
+			  border-width: 5px 5px 5px;
+			  opacity:0.8;}
+			
+			  
+				 
+				
+#gallery a:hover img {border:5px solid #808080;			 						
+					  border-width: 5px 5px 5px;
+					  color: #007FFF;}
+						
+#gallery a:hover {color: #808080;}
+
+#pic {margin-left:30px;
+	  margin-bottom:20px;
+	  background-color:transparent;
+	  }
+	  
+	  
+#picsec {margin-left:0px;
+	  margin-bottom:20px;}
+	  
+	  
+/*===================booking and contact=========================*/
+
+#bookingbox {background-color:#000000;
+		   opacity: 0.8;
+		   height:100%;
+		   margin-top:20px;
+		   margin-bottom:15px;}
+		   
+#question {background-color:transparent;}
+
+#question h4 {color:#FF0000;
+			  margin:40px 30px 0px 40px;
+			  font-family:Arial, Helvetica, sans-serif;
+			  text-align:left;
+			  font-weight:bold;
+			  text-transform:uppercase;}
+			  
+#question h6 {color:#808080;
+			  margin:20px 30px 0px 40px;
+			  font-family:Arial, Helvetica, sans-serif;
+			  font-weight:bold;
+			  text-align:left;}
+			  
+
+#question p {color:#FFFFFF;
+			 font-family:Arial, Helvetica, sans-serif;
+			 font-size:14px;
+			 font-weight:normal;
+			 letter-spacing:0.5;
+			 background-color:transparent;
+			 margin: 10px 30px 10px 40px;}
+			 
+#question a:link {text-decoration:underline;
+				  color:#FF0000;
+				  font-family:Arial, Helvetica, sans-serif; 
+				  font-size:14px;}
+				  
+			 
+/*====================================FORM===============================*/
+
+#contact {background-color:transparent;}
+		   
+
+
+#contact h4 {color:#FF0000;
+			  margin:40px 30px 20px 130px;
+			  font-family:Arial, Helvetica, sans-serif;
+			  text-align:left;
+			  font-weight:bold;
+			  text-transform:uppercase;}
+
+
+#contact p {color:#808080;
+			  margin:20px 30px 0px 130px;
+			  font-family:Arial, Helvetica, sans-serif;
+			  font-weight:bold;
+			  text-align:left;
+			  font-size:16px;}
+	
+			
+			
+.alignbox {margin-bottom:10px;}
+			
+ 
+input, textarea {padding: 1px;
+border: solid 1px #F00;
+font:Arial, Helvetica, sans-serif;
+width: 200px;}
+
+
+
+
+textarea {width: 200px;
+max-width: 200px;
+height: 100px;
+line-height: 150%;}
+
+.notification {font-family:Arial, Helvetica, sans-serif;
+				width: 20px;
+				padding:5px; 
+				margin-left:130px;
+				margin-top:10px;}
+				
+input.notification:hover {font-family:Arial, Helvetica, sans-serif;
+						width: 20px;
+						padding:5px; 
+						color:#FF0000;}
+					
+
+
+	 
+
+ 
+.form label {
+margin-left: 10px;
+color:#FF0000;
+}
+
+.submit{margin-top:10px;
+width: 100px;
+height:30px;
+padding: 5px 15px;
+background-color:#FFFFFF;
+font-size: 15px;
+font-weight:bold;
+color:#000000;
+cursor:pointer;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+.submit:hover{background:#FF0000; 
+			text-decoration: none;
+			width:100px;
+			height:30px;
+			padding: 5px 15px;}
+							   
+.submit:active {border-color: transparent; 
+			   margin-top: 22px;
+			   background:#FF0000; 
+			   text-decoration: none;
+				width:100px;
+				height:30px;
+				padding: 5px 15px;}
+			   
+			   
+
+
+
+			 
+			 
+
+			 
+			   
+
+		 
+		 
+
+
+
+	
+
+/* ================================#Media Queries================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		#icons {text-align:center;
+		margin-top:-15px;
+		margin-left:85px;
+		margin-bottom:10px;
+		letter-spacing:10px;}
+		
+			#footer {margin-right:10px;}
+	#footer a:link, #footer a:visited, #footer a {margin-right:10px;
+												  font-size:12px;}
+												  
+	#footer a:hover, #footer a:active, #footer a {margin-right:10px;
+												  font-size:12px;}
+	
+	
+/*===================tour align===================*/
+
+#tour-one p {color:#FFFFFF;
+			  font-family:Arial, Helvetica, sans-serif;
+			  text-align:center;
+			  font-size:12px;
+			  font-weight:bolder;
+			  background-color:transparent;
+			  opacity:0.6;
+			  margin-top:-20px;
+			  padding:10px 0px 10px 0px;}
+			 
+#tour-one p.red {color:#000000;
+			   background-color:#FF0000;
+			  opacity:0.4;
+			  font-family:Arial, Helvetica, sans-serif;
+			  text-align:center;
+			  font-size:12px;
+			  font-weight:bolder;
+			  margin-top:-20px;
+			  padding:10px 0px 10px 0px;}
+			  
+#tour-one p.last {color:#FFFFFF;
+			  font-family:Arial, Helvetica, sans-serif;
+			  text-align:center;
+			  font-size:12px;
+			  font-weight:bolder;
+			  background-color:transparent;
+			  opacity:0.6;
+			  margin-top:-20px;
+			  margin-bottom: 10px;
+			  padding:10px 0px 10px 0px;}
+
+
+#tour-one p a:link {font-size:12px;}
+#tour-one p.last a:link {font-size:12px;}
+#tour-one p.red a:link {font-size:12px;}
+			  
+
+
+/*==================gallery===============================*/
+#pic {margin-left:22px;
+	  text-align:left;
+	  margin-bottom:20px;
+	  background-color:transparent;
+	  width:20%;}
+	  
+	  
+	  
+#picsec {text-align:left;
+		margin-left:22px;
+	  margin-bottom:20px;
+	  width:20%;}
+	  
+
+#gallery h4 {margin-left:22px;}		  
+
+
+
+/*==================YOUTUBE VIIDEO===============*/			  
+.youtube-player {margin: 10px 0px 10px 0px;
+				 height:200;
+				 width:80%;}		  
+
+		
+		
+		
+}
+
+/* ========================All Mobile Sizes (devices and browser)===================== */
+	@media only screen and (max-width: 767px) {
+		.logo {text-align:center;}
+		#logotype {margin-top:15px;}
+		#icons {text-align:center;
+		margin-top:5px;
+		margin-left:0px;
+		margin-bottom:10px;
+		letter-spacing:10px;}
+		
+		
+/*==================form box align------*/		
+#question h4 {color:#FF0000;
+			  margin:40px 30px 0px 40px;
+			  font-family:Arial, Helvetica, sans-serif;
+			  text-align:left;
+			  font-size:20px;
+			  font-weight:bold;
+			  text-transform:uppercase;}
+			  		
+		
+#contact h4 {color:#FF0000;
+			  margin:40px 30px 20px 40px;
+			  font-family:Arial, Helvetica, sans-serif;
+			  text-align:left;
+			  font-weight:bold;
+			  font-size:20px;
+			  text-transform:uppercase;}
+
+
+#contact p {color:#808080;
+			  margin:20px 30px 0px 40px;
+			  font-family:Arial, Helvetica, sans-serif;
+			  font-weight:bold;
+			  text-align:left;
+			  font-size:16px;}
+			  
+.notification {font-family:Arial, Helvetica, sans-serif;
+				width: 20px;
+				padding:5px;
+				
+				margin-left:40px;
+				margin-top:10px;}
+			
+		
+		
+	}
+		
+	
+
+		
+
+		
+
+
+/* =======================Mobile Landscape Size to Tablet Portrait (devices and browsers)================== */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		#icons {text-align:center;
+		margin-bottom:10px;}
+		
+		
+
+/*member align*/
+
+#third-picbox {padding-bottom:10px;}
+
+#memberimage {background-color:transparent;
+			  margin-top:30px;
+			  margin-left:40px;}
+			  
+			  
+#memberimagesec {background-color:transparent;
+			     margin-top:25px;
+			     margin-left:40px;
+				 margin-bottom:10px;}
+				 
+#membertext	{margin-top:0px;
+			 text-align:left;} 
+				
+#membertext p {font-family:Arial, Helvetica, sans-serif;
+			   color:#FFFFFF;
+			   text-align:justify;
+			   font-size:10px;
+			   padding:0px 45px 0px 35px;
+			   line-height:18px;
+			   margin-left:-5px;}
+			   		
+#membertext h9 {text-align:left;
+				margin-left:30px;}
+				
+				
+/*tour align*/
+
+#tour-one p {color:#FFFFFF;
+			  font-family:Arial, Helvetica, sans-serif;
+			  text-align:center;
+			  font-size:13px;
+			  font-weight:bolder;
+			  background-color:transparent;
+			  opacity:0.6;
+			  margin-top:-20px;
+			  padding:10px 0px 10px 0px;}
+			 
+#tour-one p.red {color:#000000;
+			   background-color:#FF0000;
+			  opacity:0.4;
+			  font-family:Arial, Helvetica, sans-serif;
+			  text-align:center;
+			  font-size:13px;
+			  font-weight:1000;
+			  margin-top:-20px;
+			  padding:10px 0px 10px 0px;}
+			  
+#tour-one p.last {color:#FFFFFF;
+			  font-family:Arial, Helvetica, sans-serif;
+			  text-align:center;
+			  font-size:13px;
+			  font-weight:bolder;
+			  background-color:transparent;
+			  opacity:0.6;
+			  margin-top:-20px;
+			  margin-bottom: 10px;
+			  padding:10px 0px 10px 0px;}
+			  
+#tour-one p a:link {font-size:13px;}
+#tour-one p.last a:link {font-size:13px;}
+#tour-one p.red a:link {font-size:13px;}
+			   
+
+			 
+/*==================gallery===============================*/
+#pic {margin-left:25px;
+	  text-align:left;
+	  margin-bottom:20px;
+	  background-color:transparent;
+	  width:40%;}
+	  
+	 
+	  
+#picsec {text-align:left;
+		margin-left:25px;
+	  margin-bottom:20px;
+	  width:40%;}
+	  
+
+#gallery h4 {margin-left:25px;}	
+
+
+
+/*=============youtube video===================*/
+.youtube-player {margin: 10px 0px 10px 0px;
+				 height:200px;
+				 width:85%;
+				 padding-bottom:10px;}
+			 
+			
+		
+}
+
+
+					
+/* =============Mobile Portrait Size to Mobile Landscape Size (devices and browsers)========== */
+	@media only screen and (max-width: 479px) {
+		.logo {text-align:center;}
+		#logotype {margin-top:15px;}
+		
+/*member align*/
+
+#memberimage {background-color:transparent;
+			  margin-top:25px;
+			  margin-left:70px;}
+			  
+			  
+#memberimagesec {background-color:transparent;
+			     margin-top:25px;
+			     margin-left:70px;
+				 margin-bottom:20px;}
+				 
+#membertext	{margin-top:0px;
+			 text-align:left;} 
+				
+#membertext p {font-family:Arial, Helvetica, sans-serif;
+			   color:#FFFFFF;
+			   text-align:justify;
+			   font-size:10px;
+			   padding:0px 30px 0px 15px;
+			   line-height:18px;
+			   margin-left:-5px;}
+			   		
+#membertext h9 {text-align:left;
+				margin-left:10px;}
+				
+				
+				
+/*tour align*/
+
+#tour-one p {color:#FFFFFF;
+			  font-family:Arial, Helvetica, sans-serif;
+			  text-align:center;
+			  font-size:10px;
+			  font-weight:bolder;
+			  background-color:transparent;
+			  
+			  margin-top:-20px;
+			  padding:10px 0px 10px 0px;}
+			 
+#tour-one p.red {color:#000000;
+			   background-color:#FF0000;
+			  opacity:0.5;
+			  font-family:Arial, Helvetica, sans-serif;
+			  text-align:center;
+			  font-size:10px;
+			  font-weight:bolder;
+			  margin-top:-20px;
+			  padding:10px 0px 10px 0px;}
+			  
+#tour-one p.last {color:#FFFFFF;
+			  font-family:Arial, Helvetica, sans-serif;
+			  text-align:center;
+			  font-size:10px;
+			  font-weight:bolder;
+			  background-color:transparent;
+			  
+			  margin-top:-20px;
+			  margin-bottom: 10px;
+			  padding:10px 0px 10px 0px;}
+			  
+#tour-one p a:link {font-size:10px;}
+#tour-one p.last a:link {font-size:10px;}
+#tour-one p.red a:link {font-size:10px;}
+			  
+/*==================gallery===============================*/
+#pic {margin-left:16px;
+	  text-align:left;
+	  margin-bottom:20px;
+	  background-color:transparent;
+	  width:40%;
+	  }
+	  
+	  
+#picsec {text-align:left;
+		margin-left:16px;
+	  margin-bottom:20px;
+	  width:40%}
+	  
+
+#gallery h4 {margin-left:15px;}			
+				
+
+/*==================YOUTUBE VIIDEO===============*/			  
+.youtube-player {margin: 10px 0px 10px 0px;
+				 height:200;
+				 width:80%;}		  
+
+
+
+	
+}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/
